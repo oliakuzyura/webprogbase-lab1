@@ -3,7 +3,6 @@ p{
   color:red;
 }
 .menu ul{
-  text-align:center;
   list-style: none;
 }
 .menu ul li{display:inline-block;
