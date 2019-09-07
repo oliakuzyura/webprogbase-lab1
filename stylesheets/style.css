@@ -48,3 +48,6 @@ th, td {border: 1px solid grey;}
 td {
     text-align: center; 
    }
+.round{
+    border-radius: 100px;
+}
