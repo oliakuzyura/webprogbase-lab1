@@ -4,10 +4,12 @@ p{
 }
 .menu ul{
   list-style: none;
+  text-align:center;
 }
-.menu ul li{display:inline-block;
+.menu ul li{
   float:left;
+  display:inline-block;
 }
 .menu{
-  text-align:center;
+  
 }
