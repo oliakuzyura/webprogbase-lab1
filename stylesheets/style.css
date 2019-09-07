@@ -7,7 +7,7 @@ nav {
 }
 
 nav ul {
-    list-style: left;
+    list-style: none;
     display: inline-block;
     
 
