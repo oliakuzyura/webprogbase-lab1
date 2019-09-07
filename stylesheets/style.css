@@ -1,11 +1,14 @@
 nav {
     width: 960px;
-    margin: 0 auto;
+    margin: 0 auto; 
     text-align: center;
+}
+ul{
+      list-style: none;
 }
 nav ul {
     display: inline-block;
-    list-style: none;
+
 }
 nav li {
     float:left;
