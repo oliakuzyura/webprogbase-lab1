@@ -30,13 +30,14 @@ h1,h2,h3,h4,h5,h6{
 ul{
     list-style: none;
     text-align:center;
-     font-size: 30px;
+     font-size: 25pt;
 }
 .table{
      text-align:center;
      font-size: 30px;
 }
 table {
+    text-align:center;
 border-collapse: collapse; 
 border: 1px solid grey; 
 }
