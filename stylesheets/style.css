@@ -8,3 +8,6 @@ p{
 .menu ul li{display:inline-block;
   float:left;
 }
+.menu{
+  text-align:center;
+}
