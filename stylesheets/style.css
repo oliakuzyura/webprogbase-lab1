@@ -1,26 +1,27 @@
-body {margin:0;}
-p{
-  color:red;
-}
 ul {
-  list-style: none; 
-  margin: 0 auto;
-  width: 660px;
-  overflow: hidden;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  background:#FF4444; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
 }
-nav {
-  display: block;
-  width: 660px;
-  margin: 0 auto 30px;
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#FF4444; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #F36262; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
 }
-.menu ul {
-  padding: 1em 0;
-  background: #ECDAD6;
+a:hover {
+  background:#D43737;/*добавляем эффект при наведении*/
 }
-.menu li {
-  display: inline;
-  font-size: medium;
-}
-.menu a:hover {
-  background: #b19891;
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
 }
