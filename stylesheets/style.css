@@ -1,15 +1,15 @@
 
-p{
-  color:red;
+.menu {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
 }
-.menu ul{
-  list-style: none;
-  text-align:center;
+.menu ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.menu ul li{
-  float:left;
-  display:inline-block;
-}
-.menu{
-  
+.menu li {
+    float:left;
 }
