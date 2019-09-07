@@ -14,6 +14,7 @@ nav ul {
 }
 nav li {
     float:center;
+    display: inline;
     padding: 3px 15px 3px 0px;
 }
 p{
