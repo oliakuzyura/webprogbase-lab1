@@ -40,6 +40,7 @@ table {
     text-align:center;
 border-collapse: collapse; 
 border: 1px solid grey; 
+    margin: auto;
 }
 th, td {border: 1px solid grey;}
 td {
