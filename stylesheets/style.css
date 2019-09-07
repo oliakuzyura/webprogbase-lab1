@@ -8,10 +8,10 @@ nav {
   width: 660px;
   margin: 0 auto 30px;
 }
-.one ul {
+.menu ul {
   padding: 1em 0;
   background: #ECDAD6;
 }
-.one li {
+.menu li {
   display: inline;
 }
