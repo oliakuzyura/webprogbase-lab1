@@ -3,10 +3,11 @@ nav {
     text-align: center;
     font-size: 50px;
     background-color: lavenderblush;
+    margin: 0 auto;
 }
 
 nav ul {
-    list-style: none;
+    list-style: left;
     display: inline-block;
     
 
