@@ -1,7 +1,7 @@
 nav {
     width: 960px;
     text-align: center;
-    font-size: 10px;
+    font-size: 100px;
     
 }
 
@@ -16,5 +16,5 @@ nav li {
     padding: 3px 15px 3px 0px;
 }
 p{
-    color:red;
+    color:black;
 }
