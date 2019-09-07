@@ -1,15 +1,11 @@
-
-.menu {
+nav {
     width: 960px;
-    position: relative;
     margin: 0 auto;
+    text-align: center;
 }
-.menu ul {
-    list-style: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+nav ul {
+    display: inline-block;
 }
-.menu li {
+nav li {
     float:left;
 }
