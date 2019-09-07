@@ -2,6 +2,8 @@ body {margin:0;}
 ul {
   list-style: none; 
   margin: 0 auto;
+  width: 660px;
+  font-size: medium;
 }
 nav {
   display: block;
@@ -14,7 +16,6 @@ nav {
 }
 .menu li {
   display: inline;
-  margin-right: 15px;
 }
 .menu a:hover {
   background: #b19891;
