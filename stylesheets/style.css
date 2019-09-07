@@ -20,7 +20,4 @@ nav li {
 p{
     color:black;
 }
-img.center {
-    display: block;
-    margin: 0 auto;
-}
+.imgCenter {text-align:center;}
